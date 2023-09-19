@@ -1,0 +1,16 @@
+<svg width="58" height="58" viewBox="0 0 58 58" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <g id="streamline:nature-ecology-leaf-environment-leaf-ecology-plant-plants-eco" clip-path="url(#clip0_111_168)">
+        <g id="Group">
+            <path id="Vector"
+                d="M47.6843 22.2886C55.97 33.9714 49.6314 47.3528 46.5657 52.5728C46.1162 53.303 45.5124 53.926 44.7968 54.3983C44.0812 54.8706 43.271 55.1808 42.4229 55.3071C36.4157 56.3428 21.46 57.5028 13.4229 45.82C5.51002 34.8 5.84145 15.4114 6.54573 6.17284C6.5735 5.48454 6.76434 4.81267 7.10254 4.21254C7.44075 3.61241 7.91664 3.10119 8.49105 2.72094C9.06546 2.3407 9.72197 2.10231 10.4065 2.0254C11.0911 1.94849 11.7841 2.03525 12.4286 2.27856C21.3357 4.84713 39.8957 11.2686 47.6843 22.2886Z"
+                stroke="#ABDE66" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+            <path id="Vector_2" d="M19.7615 18.4357C29.2508 29.6184 37.5793 41.7363 44.6186 54.6028" stroke="#ABDE66"
+                stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+        </g>
+    </g>
+    <defs>
+        <clipPath id="clip0_111_168">
+            <rect width="58" height="58" fill="#050202" />
+        </clipPath>
+    </defs>
+</svg>
