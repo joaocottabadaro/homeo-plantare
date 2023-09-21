@@ -17,6 +17,9 @@ import Slider from "@/components/slider";
 import { Button } from "@/components/ui/button";
 import BenefitCard from "@/components/BenefitCard";
 import RatingCard from "@/components/RatingCard";
+import { Suspense } from "react";
+import { Spinnaker } from "next/font/google";
+import Spinner from "@/components/spinner";
 
 
 
@@ -55,11 +58,14 @@ export default function Home() {
 
 
   return (
-    <main className="flex min-h-screen relative flex-col items-center justify-between p-24 overflow-hidden">
+    <main className="flex min-h-screen relative flex-col items-center justify-between px-24 overflow-hidden">
 
       <Navbar />
       <div className="w-screen relative">
-        <Slider slidesData={slidesData} />
+        <Suspense fallback={<Spinner />}>
+          <Slider slidesData={slidesData} />
+        </Suspense>
+
       </div>
 
       <section id="beneficios" className="flex  flex-col w-full" >
