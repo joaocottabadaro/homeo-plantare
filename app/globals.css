@@ -34,6 +34,7 @@
     --swiper-pagination-bullet-width: 22px;
     --swiper-pagination-bullet-inactive-opacity: 0.6;
     --swiper-pagination-bullet-border-radius: 25px;
+    --swiper-navigation-sides-offset: 3%;
 
     .swiper-pagination-bullet-active {
       width: 66px !important;

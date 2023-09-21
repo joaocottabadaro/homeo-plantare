@@ -58,7 +58,7 @@ export default function Home() {
     <main className="flex min-h-screen relative flex-col items-center justify-between p-24 overflow-hidden">
 
       <Navbar />
-      <div className="w-screen">
+      <div className="w-screen relative">
         <Slider slidesData={slidesData} />
       </div>
 
@@ -237,27 +237,28 @@ export default function Home() {
           height={450}
           priority
         />
-        <div className="flex align-center justify-center flex-col gap-6">
+        <div className="flex align-center justify-center flex-col gap-4">
 
           <Image
             src={`/logoFooter.svg`}
             alt={`logoFooter`}
-            width={200}
+            width={270}
             height={80}
             priority
           />
+          <p>Endereço:</p>
           <p>Telefone:</p>
           <p>E-mail:</p>
           <p>© 2023 Homeoplantare. Todos os direitos reservados</p></div>
-        <div className="flex align-center justify-center flex-col gap-8">
+        <div className="flex align-center justify-center flex-col gap-6">
 
 
           <p>Sobre Nós</p>
-          <p>Perguntas Frequentes</p>
-          <p>EPolítica de Privacidade</p>
-          <p>Termos de Uso</p></div>
+          <p className="font-light">Perguntas Frequentes</p>
+          <p className="font-light">Política de Privacidade</p>
+          <p className="font-light">Termos de Uso</p></div>
 
-        <div className="flex align-center justify-center flex-col">
+        <div className="flex align-center justify-center flex-col gap-6">
           <p>Siga-nos em nossas redes sociais!</p>
           <div className="flex align-center justify-center flex-row gap-8">
             <Image
