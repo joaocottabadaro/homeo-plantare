@@ -15,10 +15,9 @@ interface SlideData {
 
 import Slider from "@/components/slider";
 import { Button } from "@/components/ui/button";
-import BenefitCard from "@/components/BenefitCard";
-import RatingCard from "@/components/RatingCard";
+import BenefitCard from "@/components/benefitCard";
+import RatingCard from "@/components/ratingCard";
 import { Suspense } from "react";
-import { Spinnaker } from "next/font/google";
 import Spinner from "@/components/spinner";
 
 
@@ -55,6 +54,9 @@ export default function Home() {
       component: Slide5, // Componente personalizado
     },
   ];
+
+
+
 
 
   return (
@@ -184,7 +186,7 @@ export default function Home() {
       </section>
 
 
-      <section id="beneficios" className="flex  flex-col w-3/4  my-11" >
+      <section id="feedback" className="flex  flex-col w-3/4  my-11" >
         <div className="relative mb-8">
           <Image
             src={`/quoteBig.svg`}

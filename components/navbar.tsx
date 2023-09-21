@@ -2,6 +2,7 @@
 import Image from 'next/image'
 
 import Link from 'next/link';
+import ScrollLink from './scrollLink';
 
 const Navbar = () => {
     return (
@@ -18,18 +19,22 @@ const Navbar = () => {
 
 
             <div className="flex justify-center space-x-10 m-auto">
-                <Link href="/sobre">
-                    Sobre Nós
-                </Link>
-                <Link href="/beneficios">
+
+
+                <ScrollLink className="btn" href="#beneficios">
                     Benefícios
-                </Link>
-                <Link href="/duvidas">
+                </ScrollLink>
+                <ScrollLink className="btn" href="#contact-me">
+                    Sobre Nós
+                </ScrollLink>
+                <ScrollLink className="btn" href="#duvidas-frequentes">
                     Dúvidas Frequentes
-                </Link>
-                <Link href="/historias">
+                </ScrollLink>
+                <ScrollLink className="btn" href="#feedback">
                     Histórias
-                </Link>
+                </ScrollLink>
+
+
             </div>
 
             <div className="flex gap-2">      <Image
