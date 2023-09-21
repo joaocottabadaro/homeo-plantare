@@ -4,9 +4,10 @@ import { cn } from '@/lib/utils';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
-
-import { Navigation } from 'swiper/modules';
+import 'swiper/css/pagination';
+import { Navigation, Pagination } from 'swiper/modules';
 import React from 'react';
+import { AspectRatio } from '@radix-ui/react-aspect-ratio';
 
 
 
@@ -19,23 +20,51 @@ interface SlideData {
 
 
 const Slider = ({ slidesData }: { slidesData: SlideData[] }) => {
+
+    const pagination = {
+        clickable: true,
+        renderBullet: function (index: number, className: string) {
+            console.log("className", className, index)
+            return '<span class="' + className + '">' + '</span>';
+        },
+    };
+
+
     return (
-        <Swiper
-            slidesPerView={1}
-            navigation={true} // Ative a navegação
-            pagination={{ clickable: true }} // Configuração da paginação
-            modules={[Navigation]}
-            className='h-lg'
-        >
-            {slidesData.map((slide: SlideData, index: React.Key | null | undefined) => (
-                <SwiperSlide key={index}
-                    className="bg-cover bg-center relative"
-                    style={{ backgroundImage: `url(${slide.imageUrl})` }}
+        <>
+
+
+            <AspectRatio ratio={3 / 1}>
+                <Swiper
+                    slidesPerView={1}
+                    // Ative a navegação
+                    pagination={pagination} // Configuração da paginação
+                    modules={[Navigation, Pagination]}
+                    navigation={{
+                        nextEl: '.swiper-button-next',
+                        prevEl: '.swiper-button-prev',
+                    }}
+                    className='w-full h-full'
                 >
-                    {slide.component}
-                </SwiperSlide>
-            ))}
-        </Swiper>
+                    {slidesData.map((slide: SlideData, index: React.Key | null | undefined) => (
+                        <>
+
+                            <SwiperSlide key={index}
+                                className="bg-cover bg-center relative"
+                                style={{ backgroundImage: `url(${slide.imageUrl})` }}
+                            >
+                                {slide.component}
+                            </SwiperSlide>
+
+                        </>
+                    ))}
+                </Swiper>
+            </AspectRatio>
+            <div className='swiper-button-next'></div>
+            <div className='swiper-button-prev'></div>
+
+
+        </>
     );
 };
 

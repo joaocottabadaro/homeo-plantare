@@ -5,26 +5,41 @@
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 240 10% 3.9%;
-    --card: 0 0% 100%;
-    --card-foreground: 240 10% 3.9%;
-    --popover: 0 0% 100%;
-    --popover-foreground: 240 10% 3.9%;
-    --primary: 190, 93%, 21%, 1;
-    --primary-foreground: 0, 0%, 100%, 1;
-    --secondary: 190, 93%, 21%, 0.74;
-    --secondary-foreground: 0, 0%, 100%, 1;
-    --muted: 240 4.8% 95.9%;
-    --muted-foreground: 240 3.8% 46.1%;
-    --accent: 240 4.8% 95.9%;
-    --accent-foreground: 240 5.9% 10%;
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 0 0% 98%;
-    --border: 240 5.9% 90%;
-    --input: 240 5.9% 90%;
-    --ring: 142.1 76.2% 36.3%;
+    --background: hsl(0 0% 100%);
+    --foreground: hsl(240 10% 3.9%);
+    --card: hsl(0 0% 100%);
+    --card-foreground: hsl(240 10% 3.9%);
+    --popover: hsl(0 0% 100%);
+    --popover-foreground: hsl(240 10% 3.9%);
+    --primary: hsl(190, 93%, 21%, 1);
+    --primary-foreground: hsl(0, 0%, 100%, 1);
+    --secondary: hsl(190, 93%, 21%, 0.74);
+    --secondary-foreground: hsl(0, 0%, 100%, 1);
+    --tertiary: hsla(85, 65%, 64%, 1);
+    --muted: hsl(240 4.8% 95.9%);
+    --gray: hsla(226, 11%, 63%, 1);
+    --muted-foreground: hsl(240 3.8% 46.1%);
+    --accent: hsl(240 4.8% 95.9%);
+    --accent-foreground: hsl(240 5.9% 10%);
+    --destructive: hsl(0 84.2% 60.2%);
+    --destructive-foreground: hsl(0 0% 98%);
+    --light-purple: hsla(214, 78%, 98%, 1);
+    --border: hsl(240 5.9% 90%);
+    --input: hsl(240 5.9% 90%);
+    --ring: hsl(142.1 76.2% 36.3%);
     --radius: 0.3rem;
+    --swiper-navigation-color: rgba(255, 255, 255, 0.6);
+    --swiper-pagination-bullet-inactive-color: rgba(255, 255, 255, 0.6);
+    --swiper-pagination-bullet-height: 22px;
+    --swiper-pagination-bullet-width: 22px;
+    --swiper-pagination-bullet-inactive-opacity: 0.6;
+    --swiper-pagination-bullet-border-radius: 25px;
+
+    .swiper-pagination-bullet-active {
+      width: 66px !important;
+      background-color: rgba(255, 255, 255, 0.6) !important;
+      transition: width 0.3s ease;
+    }
   }
 
   .dark {
