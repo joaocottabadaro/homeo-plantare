@@ -5,7 +5,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
-import { Navigation, Pagination } from 'swiper/modules';
+import { Navigation, Pagination, Autoplay } from 'swiper/modules';
 import React from 'react';
 import { AspectRatio } from '@radix-ui/react-aspect-ratio';
 
@@ -39,7 +39,11 @@ const Slider = ({ slidesData }: { slidesData: SlideData[] }) => {
                     slidesPerView={1}
                     // Ative a navegação
                     pagination={pagination} // Configuração da paginação
-                    modules={[Navigation, Pagination]}
+                    modules={[Autoplay, Navigation, Pagination]}
+                    autoplay={{
+                        delay: 2000,
+                        disableOnInteraction: false,
+                    }}
                     navigation={{
                         nextEl: '.swiper-button-next',
                         prevEl: '.swiper-button-prev',
