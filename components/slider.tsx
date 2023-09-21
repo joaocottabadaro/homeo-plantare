@@ -36,6 +36,7 @@ const Slider = ({ slidesData }: { slidesData: SlideData[] }) => {
 
             <AspectRatio ratio={3 / 1}>
                 <Swiper
+                    loop={true}
                     slidesPerView={1}
                     // Ative a navegação
                     pagination={pagination} // Configuração da paginação
