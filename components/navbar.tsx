@@ -6,7 +6,7 @@ import ScrollLink from './scrollLink';
 
 const Navbar = () => {
     return (
-        <nav className="bg-primary-green p-4 flex justify-between w-full items-center">
+        <nav className="bg-primary-foreground z-10 p-4 flex justify-between w-full items-center fixed h-30" >
 
             <Image
                 src="/logoPlant.svg"

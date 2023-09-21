@@ -63,7 +63,7 @@ export default function Home() {
     <main className="flex min-h-screen relative flex-col items-center justify-between px-24 overflow-hidden">
 
       <Navbar />
-      <div className="w-screen relative">
+      <div className="w-screen relative mt-20">
         <Suspense fallback={<Spinner />}>
           <Slider slidesData={slidesData} />
         </Suspense>
