@@ -197,7 +197,7 @@ export default function Home() {
             priority
           />
           <div className="relative flex flex-col gap-1 w-[500px] ml-20  mt-10">
-            <h2 className="font-bold text-4xl relative z-10 ">As Histórias de Nossos Parceiros</h2>
+            <h2 className="font-bold text-4xl relative z-2 ">As Histórias de Nossos Parceiros</h2>
             <h3 className="font-normal text-md">Inspire-se com nossos parceiros!</h3>
           </div>
         </div>
