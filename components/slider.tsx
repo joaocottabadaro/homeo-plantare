@@ -54,8 +54,8 @@ const Slider = ({ slidesData }: { slidesData: SlideData[] }) => {
                         <>
 
                             <SwiperSlide key={index}
-                                className="bg-cover bg-center relative"
-                                style={{ backgroundImage: `url(${slide.imageUrl})` }}
+
+
                             >
                                 {slide.component}
                             </SwiperSlide>
