@@ -26,7 +26,7 @@ import Link from "next/link";
 
 export default function Home() {
 
-  const Slide1 = <div className="flex h-full items-start flex-col flex-wrap w-1/2 justify-start ml-12 mt-12"><p className="text-primary-foreground text-4xl font-bold leading-10">Sustentabilidade com a Homeoplantare</p> <p className="text-primary-foreground text-shadow-md text-lg leading-7 tracking-wider">Solo Fértil é sinônimo de produtividade! Descubra como a Homeopatia pode ajudar seu negócio a expandir de forma natural</p></div>
+  const Slide1 = <div className="flex h-full items-start flex-col flex-wrap w-5/12 justify-start  gap-6  mt-32 pl-32"><h2 className="text-primary-foreground leading-[77px] text-6xl font-bold leading-10">Sustentabilidade com a Homeoplantare</h2> <p className="text-primary-foreground text-shadow-md text-lg leading-7 tracking-wider">Solo Fértil é sinônimo de produtividade! Descubra como a Homeopatia pode ajudar seu negócio a expandir de forma natural</p> <Button>Cadastre-se</Button></div>
   const Slide2 = <div className="flex h-full items-start flex-col flex-wrap w-1/2 justify-start ml-12 mt-12"><p className="text-primary-foreground text-4xl font-bold leading-10">Homeopatia para Grãos</p> <Button>Cadastre-se</Button></div>
   const Slide3 = <div className="flex h-full items-start flex-col flex-wrap w-1/2 justify-start ml-12 mt-12"><p className="text-primary-foreground text-4xl font-bold leading-10">Aumente sua Produtividade </p><Button>Converse conosco</Button></div>
   const Slide4 = <div className="flex h-full items-start flex-col flex-wrap w-1/2 justify-start ml-12 mt-12"><p className="text-primary-foreground text-4xl font-bold leading-10">Conheça as Soluções da Homeoplantare</p> <Button>Converse conosco</Button></div>
@@ -62,10 +62,10 @@ export default function Home() {
 
   return (
     <main className="flex min-h-screen relative flex-col items-center justify-between px-24 overflow-hidden">
-      <header className="z-10 fixed h-30 w-full bg-primary-foreground ">
+      <header className="z-10 fixed h-28 w-full bg-primary-foreground ">
         <Navbar />
       </header>
-      <div className="w-screen relative mt-20">
+      <div className="w-screen relative mt-28">
         <Suspense fallback={<Spinner />}>
           <Slider slidesData={slidesData} />
         </Suspense>

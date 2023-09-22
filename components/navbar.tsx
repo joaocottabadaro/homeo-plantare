@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 const Navbar = () => {
     return (
-        <nav className="bg-primary-foreground  py-4 flex justify-between w-full items-center  px-24 h-30" >
+        <nav className="bg-primary-foreground  py-4 flex justify-between w-full items-center  px-24 h-28" >
 
             <Image
                 src="/logoPlant.svg"
