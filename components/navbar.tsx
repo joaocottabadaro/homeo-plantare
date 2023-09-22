@@ -2,11 +2,10 @@
 import Image from 'next/image'
 
 import Link from 'next/link';
-import ScrollLink from './scrollLink';
 
 const Navbar = () => {
     return (
-        <nav className="bg-primary-foreground z-10 p-4 flex justify-between w-full items-center fixed h-30" >
+        <nav className="bg-primary-foreground  py-4 flex justify-between w-full items-center  px-24 h-30" >
 
             <Image
                 src="/logoPlant.svg"
@@ -18,26 +17,26 @@ const Navbar = () => {
             />
 
 
-            <div className="flex justify-center space-x-10 m-auto">
+            <div className="flex justify-center space-x-10 m-auto font-semibold">
 
 
-                <ScrollLink className="btn" href="#beneficios">
+                <Link className="btn" href="#beneficios">
                     Benefícios
-                </ScrollLink>
-                <ScrollLink className="btn" href="#contact-me">
+                </Link>
+                <Link className="btn" href="#contact-me">
                     Sobre Nós
-                </ScrollLink>
-                <ScrollLink className="btn" href="#duvidas-frequentes">
+                </Link>
+                <Link className="btn" href="#duvidas-frequentes">
                     Dúvidas Frequentes
-                </ScrollLink>
-                <ScrollLink className="btn" href="#feedback">
+                </Link>
+                <Link className="btn" href="#feedback">
                     Histórias
-                </ScrollLink>
+                </Link>
 
 
             </div>
 
-            <div className="flex gap-2">      <Image
+            <div className="flex gap-2 font-semibold">      <Image
                 src="/phone.svg"
                 alt="Logo"
 

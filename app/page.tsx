@@ -19,6 +19,7 @@ import BenefitCard from "@/components/benefitCard";
 import RatingCard from "@/components/ratingCard";
 import { Suspense } from "react";
 import Spinner from "@/components/spinner";
+import Link from "next/link";
 
 
 
@@ -61,8 +62,9 @@ export default function Home() {
 
   return (
     <main className="flex min-h-screen relative flex-col items-center justify-between px-24 overflow-hidden">
-
-      <Navbar />
+      <header className="z-10 fixed h-30 w-full bg-primary-foreground ">
+        <Navbar />
+      </header>
       <div className="w-screen relative mt-20">
         <Suspense fallback={<Spinner />}>
           <Slider slidesData={slidesData} />
@@ -70,7 +72,7 @@ export default function Home() {
 
       </div>
 
-      <section id="beneficios" className="flex  flex-col w-full" >
+      <section id="beneficios" className="flex  flex-col w-full scroll-mt-28" >
         <h2 className="font-bold text-6xl my-11">Conheça os Benefícios</h2>
         <div className="grid grid-cols-beneficios	my-6 w-full content-center	gap-x-44 gap-y-16 justify-items-center	">
           <BenefitCard title="Cultivo Natural e Sustentável" description="Promova um cultivo livre de agrotóxicos e produtos químicos nocivos ao meio ambiente e à saúde." logoName="beneficio1" />
@@ -86,7 +88,7 @@ export default function Home() {
 
 
 
-      <section id="duvidas-frequentes" className="mt-10 w-11/12">
+      <section id="duvidas-frequentes" className="mt-10 w-11/12 scroll-mt-28">
         <h2 className="font-bold text-6xl my-11 text-center">Dúvidas Frequentes</h2>
         <Accordion type="single" collapsible>
           <AccordionItem value="item-1">
@@ -186,7 +188,7 @@ export default function Home() {
       </section>
 
 
-      <section id="feedback" className="flex  flex-col w-3/4  my-11" >
+      <section id="feedback" className="flex  flex-col w-3/4  my-11 scroll-mt-28" >
         <div className="relative mb-8">
           <Image
             src={`/quoteBig.svg`}
@@ -209,7 +211,7 @@ export default function Home() {
       </section>
 
 
-      <section id="contact-me" className="flex  flex-col w-3/4  mb-11 p-16 bg-lightPurple rounded-2xl	" >
+      <section id="contact-me" className="flex  flex-col w-3/4  mb-11 p-16 bg-lightPurple rounded-2xl scroll-mt-28	" >
 
         <div className="flex gap-5 mb-12">
           <div>

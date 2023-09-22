@@ -42,7 +42,7 @@ const Slider = ({ slidesData }: { slidesData: SlideData[] }) => {
                     pagination={pagination} // Configuração da paginação
                     modules={[Autoplay, Navigation, Pagination]}
                     autoplay={{
-                        delay: 2000,
+                        delay: 2500,
                         disableOnInteraction: false,
                     }}
                     navigation={{
