@@ -27,16 +27,37 @@ import Link from "next/link";
 export default function Home() {
 
   const Slide1 = <div className="flex h-full items-start flex-col flex-wrap w-5/12 justify-start  gap-6  mt-32 pl-32"><h2 className="text-primary-foreground leading-[77px] text-6xl font-bold leading-10">Sustentabilidade com a Homeoplantare</h2> <p className="text-primary-foreground text-shadow-md text-lg leading-7 tracking-wider">Solo Fértil é sinônimo de produtividade! Descubra como a Homeopatia pode ajudar seu negócio a expandir de forma natural</p> <Button>Cadastre-se</Button></div>
-  const Slide2 = <div className="flex h-full items-start flex-col flex-wrap w-1/2 justify-start ml-12 mt-12"><p className="text-primary-foreground text-4xl font-bold leading-10">Homeopatia para Grãos</p> <Button>Cadastre-se</Button></div>
-  const Slide3 = <div className="flex h-full items-start flex-col flex-wrap w-1/2 justify-start ml-12 mt-12"><p className="text-primary-foreground text-4xl font-bold leading-10">Aumente sua Produtividade </p><Button>Converse conosco</Button></div>
-  const Slide4 = <div className="flex h-full items-start flex-col flex-wrap w-1/2 justify-start ml-12 mt-12"><p className="text-primary-foreground text-4xl font-bold leading-10">Conheça as Soluções da Homeoplantare</p> <Button>Converse conosco</Button></div>
-  const Slide5 = <div className="flex h-full items-start flex-col flex-wrap w-1/2 justify-start ml-12 mt-12"><p className="text-primary-foreground text-4xl font-bold leading-10">Conheça os Benefícios da Homeopatia em</p><p>PANCs (Plantas Alimentícias Não Convencionais)</p><Button>Converse conosco</Button></div>
+  const Slide2 = <div className="flex h-full items-start flex-col flex-wrap w-5/12 justify-start  gap-6  mt-52 pl-32"><h2 className="text-primary-foreground leading-[77px] text-6xl font-bold leading-10">Homeopatia para Grãos</h2> <Button>Cadastre-se</Button></div>
+  const Slide3 = <div className="flex h-full items-start flex-col flex-wrap w-5/12 justify-start  gap-6  mt-52 pl-32"><h2 className="text-primary-foreground leading-[77px] text-6xl font-bold leading-10">Aumente sua Produtividade </h2><Button className="gap-2"><Image
+    src={`/whatsapp.svg`}
+    alt={`whatsapp`}
+
+    width={25}
+    height={25}
+    priority
+  /> Converse conosco</Button></div>
+  const Slide4 = <div className="flex h-full items-start flex-col flex-wrap w-5/12 justify-start  gap-6  mt-52 pl-32"><h2 className="text-primary-foreground leading-[77px] text-6xl font-bold leading-10">Conheça as Soluções da Homeoplantare</h2> <Button className="gap-2"> <Image
+    src={`/whatsapp.svg`}
+    alt={`whatsapp`}
+
+    width={25}
+    height={25}
+    priority
+  />Converse conosco</Button></div>
+  const Slide5 = <div className="flex h-full items-start flex-col flex-wrap w-6/12 justify-start  gap-6  mt-48 pl-32"><h2 className="text-primary-foreground leading-[77px] text-4xl font-bold leading-10">Conheça os Benefícios da Homeopatia em</h2><h3 className="text-primary-foreground leading-[77px] text-6xl font-bold leading-10">PANCs (Plantas Alimentícias Não Convencionais)</h3><Button className="gap-2"> <Image
+    src={`/whatsapp.svg`}
+    alt={`whatsapp`}
+
+    width={25}
+    height={25}
+    priority
+  />Converse conosco</Button></div>
 
 
   const slidesData: SlideData[] = [
     {
-      imageUrl: '/back1.png', // Substitua pela URL real da imagem
-      component: Slide1, // Componente personalizado
+      imageUrl: '/back3.png', // Substitua pela URL real da imagem
+      component: Slide3, // Componente personalizado
     },
     {
       imageUrl: '/back2.png', // Substitua pela URL real da imagem

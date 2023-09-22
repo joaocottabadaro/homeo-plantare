@@ -38,13 +38,12 @@ const Slider = ({ slidesData }: { slidesData: SlideData[] }) => {
                 <Swiper
                     loop={true}
                     slidesPerView={1}
-                    // Ative a navegação
-                    pagination={pagination} // Configuração da paginação
-                    // modules={[Autoplay, Navigation, Pagination]}
-                    // autoplay={{
-                    //     delay: 2500,
-                    //     disableOnInteraction: false,
-                    // }}
+                    pagination={pagination}
+                    modules={[Autoplay, Navigation, Pagination]}
+                    autoplay={{
+                        delay: 2500,
+                        disableOnInteraction: false,
+                    }}
                     navigation={{
                         nextEl: '.swiper-button-next',
                         prevEl: '.swiper-button-prev',
