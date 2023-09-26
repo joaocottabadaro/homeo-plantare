@@ -40,15 +40,15 @@ const Slider = ({ slidesData }: { slidesData: SlideData[] }) => {
                     slidesPerView={1}
                     pagination={pagination}
                     modules={[Autoplay, Navigation, Pagination]}
-                    autoplay={{
-                        delay: 2500,
-                        disableOnInteraction: false,
-                    }}
+                    // autoplay={{
+                    //     delay: 2500,
+                    //     disableOnInteraction: false,
+                    // }}
                     navigation={{
                         nextEl: '.swiper-button-next',
                         prevEl: '.swiper-button-prev',
                     }}
-                    className='w-full h-full'
+                    className='w-full h-[500px] md:h-full'
                 >
                     {slidesData.map((slide: SlideData, index: React.Key | null | undefined) => (
                         <>

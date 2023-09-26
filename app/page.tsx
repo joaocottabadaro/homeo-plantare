@@ -19,14 +19,13 @@ import BenefitCard from "@/components/benefitCard";
 import RatingCard from "@/components/ratingCard";
 import { Suspense } from "react";
 import Spinner from "@/components/spinner";
-import Link from "next/link";
 
 
 
 
 export default function Home() {
 
-  const Slide1 = <div className=" max-lg:w-full	 flex h-full items-start flex-col flex-wrap w-7/12 2xl:w-5/12 justify-start  gap-6  mt-10 pl-32">
+  const Slide1 = <div className=" w-full	 xl:w-1/2 flex h-full items-center md:items-start  text-center md:text-start flex-col flex-wrap w-full 2xl:w-5/12 justify-center gap-2  px-4 md:pl-20">
     <Image
       src={`/back1.png`}
       alt={"background1"}
@@ -36,8 +35,8 @@ export default function Home() {
       fill
 
       priority
-    /><h2 className=" z-10 text-primary-foreground leading-[77px] text-6xl font-bold leading-10">Sustentabilidade com a Homeoplantare</h2> <p className="z-10 text-primary-foreground text-shadow-md text-lg leading-7 tracking-wider">Solo Fértil é sinônimo de produtividade! Descubra como a Homeopatia pode ajudar seu negócio a expandir de forma natural</p> <Button className="z-10">Cadastre-se</Button></div>
-  const Slide2 = <div className=" flex h-full items-start flex-col flex-wrap w-7/12 2xl:w-5/12 justify-start  gap-6 mt-16  pl-32">   <Image
+    /><h2 className=" z-10 text-primary-foreground eading-4  xl:leading-[77px] lg:text-2xl  lg:4xl xl:text-6xl font-bold leading-10">Sustentabilidade com a Homeoplantare</h2> <p className="z-10 text-primary-foreground text-shadow-md lg:text-2xl leading-7 tracking-wider">Solo Fértil é sinônimo de produtividade! Descubra como a Homeopatia pode ajudar seu negócio a expandir de forma natural</p> <Button className="z-10">Cadastre-se</Button></div>
+  const Slide2 = <div className=" flex h-full items-center md:items-start text-center md:text-start flex-col flex-wrap w-full 2xl:w-5/12 justify-center  gap-6   px-4 md:pl-20">   <Image
     src={`/back2.png`}
     alt={"background2"}
 
@@ -46,8 +45,8 @@ export default function Home() {
     fill
 
     priority
-  /><h2 className=" z-10 text-primary-foreground leading-[77px] text-6xl font-bold leading-10">Homeopatia para Grãos</h2> <Button className="z-10">Cadastre-se</Button></div>
-  const Slide3 = <div className="  max-lg:w-full	flex h-full items-start flex-col flex-wrap w-7/12 2xl:w-5/12 justify-start  gap-6 mt-16 2xl:mt-36 pl-32">   <Image
+  /><h2 className=" z-10 text-primary-foreground leading-4  xl:leading-[77px] lg:text-2xl   xl:text-4xl font-bold leading-10">Homeopatia para Grãos</h2> <Button className="z-10">Cadastre-se</Button></div>
+  const Slide3 = <div className="  max-lg:w-full	flex h-full items-center text-center md:text-start md:items-start flex-col flex-wrap w-full 2xl:w-5/12 justify-center  gap-6   px-4 md:pl-20">   <Image
     src={`/back3.png`}
     alt={"background3"}
 
@@ -56,7 +55,7 @@ export default function Home() {
     fill
 
     priority
-  /><h2 className=" z-10 text-primary-foreground leading-[77px] text-6xl font-bold leading-10">Aumente sua Produtividade </h2>< Button className="gap-2 z-10"><Image
+  /><h2 className=" z-10 text-primary-foreground leading-4  xl:leading-[77px] lg:text-2xl   xl:text-4xl font-bold leading-10">Aumente sua Produtividade </h2>< Button className="gap-2 z-10"><Image
     src={`/whatsapp.svg`}
     alt={`whatsapp`}
 
@@ -64,7 +63,7 @@ export default function Home() {
     height={25}
     priority
   /> Converse conosco</Button></div>
-  const Slide4 = <div className=" max-lg:w-full	 flex h-full items-start flex-col flex-wrap w-7/12 2xl:w-5/12 justify-start  gap-6 mt-16 2xl:mt-36 pl-32">  <Image
+  const Slide4 = <div className=" lg:w-full	 flex h-full items-center text-center md:text-start md:items-start flex-col flex-wrap w-full 2xl:w-5/12 justify-center  gap-6   px-4 md:pl-20">  <Image
     src={`/back3.png`}
     alt={"background3"}
 
@@ -73,7 +72,7 @@ export default function Home() {
     fill
 
     priority
-  /><h2 className="z-10 text-primary-foreground leading-[77px] text-6xl font-bold leading-10">Conheça as Soluções da Homeoplantare</h2> <Button className="gap-2 z-10"> <Image
+  /><h2 className="z-10 text-primary-foreground leading-4  xl:leading-[77px] lg:text-2xl  l xl:text-4xl font-bold leading-10">Conheça as Soluções da Homeoplantare</h2> <Button className="gap-2 z-10"> <Image
     src={`/whatsapp.svg`}
     alt={`whatsapp`}
 
@@ -81,7 +80,7 @@ export default function Home() {
     height={25}
     priority
   />Converse conosco</Button></div>
-  const Slide5 = <div className="flex h-full items-start flex-col flex-wrap w-8/12 2xl:w-6/12 justify-start  gap-6  mt-6 2x:mt-32 pl-32">  <Image
+  const Slide5 = <div className="flex h-full items-center text-center md:text-start md:items-start flex-col flex-wrap w-full 2xl:w-6/12  justify-center  gap-6  mt-6 2x:mt-32  px-4 md:pl-20">  <Image
     src={`/back4.png`}
     alt={"background4"}
 
@@ -90,7 +89,7 @@ export default function Home() {
     fill
 
     priority
-  /><h2 className="z-10 text-primary-foreground leading-[77px] text-4xl font-bold leading-10">Conheça os Benefícios da Homeopatia em</h2><h3 className="z-10 text-primary-foreground leading-[77px] text-6xl font-bold leading-10">PANCs (Plantas Alimentícias Não Convencionais)</h3><Button className="gap-2 z-10 "> <Image
+  /><h2 className="z-10 text-primary-foreground leading-4  xl:leading-[77px] lg:text-2xl  m xl:text-4xl font-bold leading-10">Conheça os Benefícios da Homeopatia em</h2><h3 className="z-10 text-primary-foreground leading-4  xl:leading-[77px] max-lg:text-2xl  max-lg:text-2xl xl:text-4xl font-bold leading-10">PANCs (Plantas Alimentícias Não Convencionais)</h3><Button className="gap-2 z-10 "> <Image
     src={`/whatsapp.svg`}
     alt={`whatsapp`}
     className="z-10"
@@ -128,19 +127,19 @@ export default function Home() {
 
 
   return (
-    <main className="flex min-h-screen relative flex-col items-center justify-between px-24 overflow-hidden">
-      <header className="z-10 fixed h-28 w-full bg-primary-foreground ">
+    <main className="flex min-h-screen relative flex-col items-center justify-between px-4 xl:px-24 overflow-hidden">
+      <header className="z-40 fixed h-28 w-full bg-primary-foreground ">
         <Navbar />
       </header>
-      <div className="w-screen relative mt-28">
+      <section id="home" className="w-screen relative mt-28">
         <Suspense fallback={<Spinner />}>
           <Slider slidesData={slidesData} />
         </Suspense>
 
-      </div>
+      </section>
 
-      <section id="beneficios" className="flex  flex-col w-full scroll-mt-28" >
-        <h2 className="font-bold text-6xl my-11">Conheça os Benefícios</h2>
+      <section id="beneficios" className="flex   max-sm:mt-[419px] flex-col w-full scroll-mt-28" >
+        <h2 className="font-bold text-4xl md:text-6xl my-11 text-center lg:text-left">Conheça os Benefícios</h2>
         <div className="grid grid-cols-beneficios	my-6 w-full content-center	gap-x-44 gap-y-16 justify-items-center	">
           <BenefitCard title="Cultivo Natural e Sustentável" description="Promova um cultivo livre de agrotóxicos e produtos químicos nocivos ao meio ambiente e à saúde." logoName="beneficio1" />
           <BenefitCard title="Resistência a Pragas e Doenças" description="Fortaleça as plantas e melhore sua resistência natural a pragas, doenças e condições adversas." logoName="beneficio2" />
@@ -156,7 +155,7 @@ export default function Home() {
 
 
       <section id="duvidas-frequentes" className="mt-10 w-11/12 scroll-mt-28">
-        <h2 className="font-bold text-6xl my-11 text-center">Dúvidas Frequentes</h2>
+        <h2 className="font-bold text-4xl md:text-6xl my-11 text-center">Dúvidas Frequentes</h2>
         <Accordion type="single" collapsible>
           <AccordionItem value="item-1">
             <AccordionTrigger>      <Image
@@ -265,7 +264,7 @@ export default function Home() {
             height={100}
             priority
           />
-          <div className="relative flex flex-col gap-1 w-[500px] ml-20  mt-10">
+          <div className="relative flex flex-col gap-1 md:w-[500px] ml-20  mt-10">
             <h2 className="font-bold text-4xl relative z-2 ">As Histórias de Nossos Parceiros</h2>
             <h3 className="font-normal text-md">Inspire-se com nossos parceiros!</h3>
           </div>
@@ -278,23 +277,23 @@ export default function Home() {
       </section>
 
 
-      <section id="contact-me" className="flex  flex-col w-full   mb-11 p-16 bg-lightPurple rounded-2xl scroll-mt-28  lxl:w-3/4	" >
+      <section id="contact-me" className="flex  flex-col w-full   mb-11  p-4 md:p-16 bg-lightPurple rounded-2xl scroll-mt-28  lxl:w-3/4	" >
 
         <div className="flex gap-5 mb-12  z-20 max-lg:flex-wrap">
           <div>
             <span className="block  w-3/4 h-2 bg-tertiary m-auto"></span>
-            <p className="  text-center leading-9 text-lg">Na Homeoplantare, estamos comprometidos em revolucionar a agricultura por meio da homeopatia. Com experiência e paixão pelo cultivo sustentável, nossa equipe de especialistas está dedicada a oferecer soluções naturais e inovadoras que fortalecem as plantas, aumentam a produtividade e promovem um equilíbrio saudável nos ecossistemas agrícolas.
+            <p className="  text-center leading-9 max-lg:text-2xl">Na Homeoplantare, estamos comprometidos em revolucionar a agricultura por meio da homeopatia. Com experiência e paixão pelo cultivo sustentável, nossa equipe de especialistas está dedicada a oferecer soluções naturais e inovadoras que fortalecem as plantas, aumentam a produtividade e promovem um equilíbrio saudável nos ecossistemas agrícolas.
             </p>
           </div>
 
           <div>
-            <p className="text-center font-lg font-normal leading-9 text-lg ">Nossa missão é capacitar agricultores, agrônomos e entusiastas da agricultura com conhecimentos valiosos e práticas eficazes. Acreditamos que a homeopatia é a chave para um futuro agrícola mais sustentável e saudável. Ao se juntar a nós, você faz parte desse movimento de transformação.</p>
+            <p className="text-center font-lg font-normal leading-9 text-2xl ">Nossa missão é capacitar agricultores, agrônomos e entusiastas da agricultura com conhecimentos valiosos e práticas eficazes. Acreditamos que a homeopatia é a chave para um futuro agrícola mais sustentável e saudável. Ao se juntar a nós, você faz parte desse movimento de transformação.</p>
             <span className="block  w-3/4 h-2 bg-tertiary m-auto"></span>
           </div>
 
         </div>
 
-        <h2 className="text-6xl font-bold text-center my-8 mx-auto w-11/12 leading-[88px] z-20 opacity-80">Vamos transformar seu ecossitema juntos!</h2>
+        <h2 className="text-3xl xl:text-6xl font-bold text-center my-8 mx-auto w-11/12 leading-12 md:leading-[88px] z-20 opacity-80">Vamos transformar seu ecossitema juntos!</h2>
         <Button className="color-primary-foreground bg-tertiary m-auto gap-2">  <Image
           src={`/whatsapp.svg`}
           alt={`whatsapp`}
@@ -304,12 +303,12 @@ export default function Home() {
           priority
         />Entre em contato!</Button>
       </section>
-      <footer className="bg-secondary relative w-full text-secondary-foreground w-screen flex align-center justify-evenly min-h-[400px]">
+      <footer className="bg-secondary relative w-full text-secondary-foreground px-6 w-screen flex align-center justify-evenly min-h-[400px] flex-col md:flex-row py-1">
 
         <Image
           src={`/bigLeaf.svg`}
           alt={"bigLeaf"}
-          className="absolute -top-[500px] left-0 z-10  max-[1300px]:h-[300px] max-[1300px]:w-[300px] max-[1300px]:-top-[200px]"
+          className="absolute h-[200px] w-[200px]  -top-[320px]  min-[768px]:-top-[500px] left-0 z-10    min-[768px]:h-[300px] min-[768px]:w-[300px] min-[768px]:-top-[200px]"
           width={450}
           height={450}
 

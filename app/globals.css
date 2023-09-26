@@ -36,12 +36,10 @@
     --swiper-pagination-bullet-border-radius: 25px;
     --swiper-navigation-sides-offset: 3%;
 
-    .swiper-pagination-bullet-active {
-      width: 66px !important;
-      background-color: rgba(255, 255, 255, 0.6) !important;
-      transition: width 0.3s ease;
-    }
+
   }
+
+
 
   .dark {
     --background: 20 14.3% 4.1%;
@@ -64,4 +62,10 @@
     --input: 240 3.7% 15.9%;
     --ring: 142.4 71.8% 29.2%;
   }
+}
+
+.swiper-pagination-bullet-active {
+  width: 66px !important;
+  background-color: rgba(255, 255, 255, 0.6) !important;
+  transition: width 0.3s ease;
 }

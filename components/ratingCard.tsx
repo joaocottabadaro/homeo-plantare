@@ -16,7 +16,7 @@ const RatingCard = ({ title, feedback, subtitle, className }: CardProps) => {
     return (
 
         <div className={cn(
-            "flex  items-start justify-start w-[500px] shadow-md h-[300px] p-8 gap-2 ",
+            "flex  items-start justify-start md:w-[500px] shadow-md  md:h-[300px] p-8 gap-2 ",
             className
         )} >
 
