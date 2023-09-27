@@ -1,6 +1,7 @@
 import './globals.css'
 import type { Metadata } from 'next'
 import { Poppins } from 'next/font/google'
+import ActiveSectionContext from './context/activeSectionContext'
 
 const inter = Poppins({
   subsets: ['latin'],
@@ -19,7 +20,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className='scroll-smooth'>
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>{
+
+        <ActiveSectionContext>{children}</ActiveSectionContext>}</body>
     </html>
   )
 }
