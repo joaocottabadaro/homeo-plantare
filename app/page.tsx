@@ -30,8 +30,8 @@ export default function Home() {
       src={`/back1.png`}
       alt={"background1"}
 
-      className="z-0"
-      objectFit="cover"
+      className="z-0   object-cover"
+
       fill
 
       priority
@@ -40,8 +40,8 @@ export default function Home() {
     src={`/back2.png`}
     alt={"background2"}
 
-    className="z-0"
-    objectFit="cover"
+    className="z-0   object-cover"
+
     fill
 
     priority
@@ -50,8 +50,8 @@ export default function Home() {
     src={`/back3.png`}
     alt={"background3"}
 
-    className="z-0"
-    objectFit="cover"
+    className="z-0   object-cover"
+
     fill
 
     priority
@@ -64,11 +64,11 @@ export default function Home() {
     priority
   /> Converse conosco</Button></div>
   const Slide4 = <div className=" lg:w-full	 flex h-full items-center text-center md:text-start md:items-start flex-col flex-wrap w-full 2xl:w-5/12 justify-center  gap-6   px-4 md:pl-20">  <Image
-    src={`/back3.png`}
-    alt={"background3"}
+    src={`/back4.png`}
+    alt={"background4"}
 
-    className="z-0"
-    objectFit="cover"
+    className="z-0   object-cover"
+
     fill
 
     priority
@@ -81,11 +81,11 @@ export default function Home() {
     priority
   />Converse conosco</Button></div>
   const Slide5 = <div className="flex h-full items-center text-center md:text-start md:items-start flex-col flex-wrap w-full 2xl:w-6/12  justify-center  gap-6  mt-6 2x:mt-32  px-4 md:pl-20">  <Image
-    src={`/back4.png`}
-    alt={"background4"}
+    src={`/back5.png`}
+    alt={"background5"}
 
-    className="z-0"
-    objectFit="cover"
+    className="z-0   object-cover"
+
     fill
 
     priority
@@ -277,7 +277,7 @@ export default function Home() {
       </section>
 
 
-      <section id="contact-me" className="flex  flex-col w-full   mb-11  p-4 md:p-16 bg-lightPurple rounded-2xl scroll-mt-28  lxl:w-3/4	" >
+      <section id="contact-me" className="flex  flex-col w-full   mb-11  mt-8 sm:mt-2  p-4 md:p-16 bg-lightPurple rounded-2xl scroll-mt-28  lxl:w-3/4	" >
 
         <div className="flex gap-5 mb-12  z-20 max-lg:flex-wrap">
           <div>
@@ -287,7 +287,7 @@ export default function Home() {
           </div>
 
           <div>
-            <p className="text-center font-lg font-normal leading-9 text-2xl ">Nossa missão é capacitar agricultores, agrônomos e entusiastas da agricultura com conhecimentos valiosos e práticas eficazes. Acreditamos que a homeopatia é a chave para um futuro agrícola mais sustentável e saudável. Ao se juntar a nós, você faz parte desse movimento de transformação.</p>
+            <p className=" text-center leading-9 max-lg:text-2xl">Nossa missão é capacitar agricultores, agrônomos e entusiastas da agricultura com conhecimentos valiosos e práticas eficazes. Acreditamos que a homeopatia é a chave para um futuro agrícola mais sustentável e saudável. Ao se juntar a nós, você faz parte desse movimento de transformação.</p>
             <span className="block  w-3/4 h-2 bg-tertiary m-auto"></span>
           </div>
 

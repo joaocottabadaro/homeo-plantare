@@ -84,20 +84,37 @@ const Navbar = () => {
                     <div className="flex  h-full justify-start flex md:gap-5 lg:gap-10 m-auto font-semibold text-4xl gap-3 flex-col mt-5" onClick={toggleMenu}>
 
 
+                        <Link className="btn" href="#home">
+                            Home
+                        </Link>
+                        <span className={`block h-[1px]  w-full my-2 bg-primary`}
+                            aria-hidden="true"
+                        ></span>
                         <Link className="btn" href="#beneficios">
                             Benefícios
                         </Link>
+                        <span className={`block h-[1px]  w-full my-2 bg-primary`}
+                            aria-hidden="true"
+                        ></span>
                         <Link className="btn" href="#contact-me">
                             Sobre Nós
                         </Link>
+                        <span className={`block h-[1px]  w-full my-2 bg-primary`}
+                            aria-hidden="true"
+                        ></span>
                         <Link className="btn" href="#duvidas-frequentes">
-                            Dúvidas Frequentes
+                            Dúvidas
                         </Link>
+                        <span className={`block h-[1px]  w-full my-2 bg-primary`}
+                            aria-hidden="true"
+                        ></span>
                         <Link className="btn" href="#feedback">
                             Histórias
                         </Link>
 
-
+                        <span className={`block h-[1px] w-full my-2 bg-primary`}
+                            aria-hidden="true"
+                        ></span>
                     </div>
 
                 </SheetContent>
