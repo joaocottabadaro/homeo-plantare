@@ -21,7 +21,7 @@ const Navbar = () => {
         setIsOpen(!isOpen);
     };
 
-    const { activeSection, setActiveSection } = useActiveSectionContext();
+    const { activeSection, setTimeOfLastClick, setActiveSection } = useActiveSectionContext();
 
 
     return (
@@ -33,7 +33,7 @@ const Navbar = () => {
                 <div className="flex justify-center hidden lg:flex md:gap-5 lg:gap-10 m-auto font-semibold gap-3">
                     {links.map((link) => (
                         <>
-                            <Link className="btn" key={link.hash} href={link.hash} onClick={() => setActiveSection(link.name)}>
+                            <Link className="btn" key={link.hash} href={link.hash} onClick={() => { setActiveSection(link.name); setTimeOfLastClick(Date.now()) }}>
                                 {link.name}
                                 {activeSection === link.name ? <motion.span initial={{ x: -100, opacity: 0 }}
                                     animate={{ x: 0, opacity: 1 }}
@@ -42,7 +42,7 @@ const Navbar = () => {
                                     aria-hidden="true"
                                 > </motion.span> : null
                                 }
-                            </Link>
+                            </Link >
                         </>
                     ))}
                 </div>
@@ -96,7 +96,7 @@ const Navbar = () => {
                     </SheetContent>
                 </Sheet>
             </nav>
-        </header>
+        </header >
 
     );
 };

@@ -1,22 +1,15 @@
 
-
 "use client"
+
 
 import Image from 'next/image'
 import RatingCard from './ratingCard';
-import { useActiveSectionContext } from '@/app/context/activeSectionContext';
-import { useRef } from 'react';
-import { useInView } from 'framer-motion';
+import { useSectionInView } from '@/lib/hooks';
 
 
 const Feedback = () => {
 
-    const { activeSection, setActiveSection } = useActiveSectionContext();
-
-    const ref = useRef(null)
-    const isInView = useInView(ref)
-
-    if (isInView) setActiveSection("Histórias")
+    const { ref } = useSectionInView("Histórias")
 
     return (
 

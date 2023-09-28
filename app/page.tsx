@@ -34,7 +34,7 @@ export default function Home() {
     <main id="head" className="flex min-h-screen relative flex-col items-center justify-between px-4 xl:px-24 overflow-hidden">
 
       <Navbar />
-      <section id="sobre" className="w-screen relative mt-[7rem] ">
+      <section id="sobre" className="w-screen relative mt-[7rem] " >
         <Suspense fallback={<Spinner />}>
           <Slider slidesData={slidesData} />
         </Suspense>

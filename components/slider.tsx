@@ -8,18 +8,14 @@ import 'swiper/css/pagination';
 import { Navigation, Pagination, Autoplay } from 'swiper/modules';
 import React from 'react';
 import { AspectRatio } from '@radix-ui/react-aspect-ratio';
+import { useSectionInView } from '@/lib/hooks';
+import { SlideData } from "./../lib/types"
 
-
-
-interface SlideData {
-    imageUrl: string;
-    component: React.ReactNode;
-
-}
 
 
 
 const Slider = ({ slidesData }: { slidesData: SlideData[] }) => {
+    const { ref } = useSectionInView("Sobre nós")
 
     const pagination = {
         clickable: true,
@@ -36,6 +32,7 @@ const Slider = ({ slidesData }: { slidesData: SlideData[] }) => {
 
             <AspectRatio ratio={3 / 1}>
                 <Swiper
+                    ref={ref}
                     loop={true}
                     slidesPerView={1}
                     pagination={pagination}

@@ -1,21 +1,15 @@
 
-'use client'
+"use client"
+
 import Image from 'next/image'
-import RatingCard from './ratingCard';
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from './ui/accordion';
-import { inView, useInView } from 'framer-motion';
-import { useActiveSectionContext } from '@/app/context/activeSectionContext';
-import { useRef } from 'react';
+import { useSectionInView } from '@/lib/hooks';
 
 
 const Duvidas = () => {
 
-    const { activeSection, setActiveSection } = useActiveSectionContext();
+    const { ref } = useSectionInView("Duvidas")
 
-    const ref = useRef(null)
-    const isInView = useInView(ref)
-
-    if (isInView) setActiveSection("Duvidas")
 
     return (
 
