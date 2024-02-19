@@ -31,44 +31,32 @@ const Footer = () => {
                     height={80}
                     priority
                 />
-                <p>Endereço:</p>
-                <p>Telefone:</p>
-                <p>E-mail:</p>
-                <p>© 2023 Homeoplantare. Todos os direitos reservados</p></div>
+                <p>Endereço: Rua Mister Moore 18, 301</p>
+                <p>Telefone: +5532984565731</p>
+                <p>E-mail: <a href='mailto:homeoplantareagro@gmail.com'>homeoplantareagro@gmail.com</a></p>
+                <p>© {new Date().getFullYear() } Homeoplantare. Todos os direitos reservados</p></div>
             <div className="flex align-center justify-center flex-col gap-6">
 
 
-                <p>Sobre Nós</p>
-                <p className="font-light">Perguntas Frequentes</p>
-                <p className="font-light">Política de Privacidade</p>
-                <p className="font-light">Termos de Uso</p></div>
+                <a href='#sobreNos'>Sobre Nós</a>
+                <a href='#duvidas' className="font-light">Perguntas Frequentes</a>
+                </div>
 
             <div className="flex align-center justify-center flex-col gap-6">
-                <p>Siga-nos em nossas redes sociais!</p>
+                <p>Qualquer dúvida entre em contato pelo nosso whatsapp!</p>
                 <div className="flex align-center justify-center flex-row gap-8">
-                    <Image
-                        src={`/instagram.svg`}
-                        alt={`instagram`}
-                        width={58}
-                        height={58}
-                        priority
-                    />
+        
 
-                    <Image
-                        src={`/facebook.svg`}
-                        alt={`facebook`}
-                        width={58}
-                        height={58}
-                        priority
-                    />
+                    <a href="https://wa.me/5532984565731" target='_blank' >
+                        <Image
+                            src={`/whatsappColor.svg`}
+                            alt={`whatsappColor`}
+                            width={58}
+                            height={58}
+                            priority
 
-                    <Image
-                        src={`/whatsappColor.svg`}
-                        alt={`whatsappColor`}
-                        width={58}
-                        height={58}
-                        priority
-                    />
+                        />
+                    </a>
                 </div>
             </div>
 

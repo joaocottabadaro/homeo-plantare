@@ -30,7 +30,7 @@ const Navbar = () => {
             <nav className="bg-primary-foreground max-[1300px]:px-6 py-4 flex justify-between w-full items-center  px-10 xl:px-24 h-28">
                 <Image src="/logoPlant.svg" alt="Logo" width={250} height={40} priority />
 
-                <div className="flex justify-center hidden lg:flex md:gap-5 lg:gap-10 m-auto font-semibold gap-3">
+                <div className="flex justify-center  lg:flex md:gap-5 lg:gap-10 m-auto font-semibold gap-3">
                     {links.map((link) => (
                         <>
                             <Link className="btn" key={link.hash} href={link.hash} onClick={() => { setActiveSection(link.name); setTimeOfLastClick(Date.now()) }}>
@@ -47,11 +47,11 @@ const Navbar = () => {
                     ))}
                 </div>
 
-                <div className="flex gap-2 hidden lg:flex font-semibold">
+                <a className="flex gap-2 lg:flex font-semibold" aria-label="entrar em contato pelo whatsapp" href="https://wa.me/5532984565731"  target="_blank">
                     {" "}
                     <Image src="/phone.svg" alt="Logo" width={20} height={20} priority />
-                    +55 32 98888-8888
-                </div>
+                    +55 32 98456-5731
+                </a>
 
                 <Sheet open={isOpen} onOpenChange={toggleMenu}>
                     <SheetTrigger asChild>
@@ -75,7 +75,7 @@ const Navbar = () => {
                     </SheetTrigger>
                     <SheetContent>
                         <div
-                            className="flex  h-full justify-start flex md:gap-5 lg:gap-10 m-auto font-semibold text-4xl gap-3 flex-col mt-5"
+                            className="flex  h-full justify-start md:gap-5 lg:gap-10 m-auto font-semibold text-4xl gap-3 flex-col mt-5"
                             onClick={toggleMenu}
                         >
 

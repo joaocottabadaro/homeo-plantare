@@ -31,14 +31,14 @@ const ContactMe = () => {
             </div>
 
             <h2 className="text-3xl xl:text-6xl font-bold text-center my-8 mx-auto w-11/12 leading-12 md:leading-[88px] z-20 opacity-80">Vamos transformar seu ecossitema juntos!</h2>
-            <Button className="color-primary-foreground bg-tertiary m-auto gap-2">  <Image
+            <Button className="color-primary-foreground bg-tertiary m-auto gap-2" >  <Image
                 src={`/whatsapp.svg`}
                 alt={`whatsapp`}
-
+        
                 width={25}
                 height={25}
                 priority
-            />Entre em contato!</Button>
+             /> <a href="https://wa.me/5532984565731" target='_blank'> Entre em contato!</a></Button>
         </section>
 
     );
