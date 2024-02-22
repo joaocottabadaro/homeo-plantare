@@ -43,9 +43,17 @@ const Footer = () => {
                 </div>
 
             <div className="flex align-center justify-center flex-col gap-6">
-                <p>Qualquer dúvida entre em contato pelo nosso whatsapp!</p>
+            <p>Siga-nos em nossas redes sociais!</p>
                 <div className="flex align-center justify-center flex-row gap-8">
-        
+                <a href="https://www.instagram.com/homeoplantare/" target='_blank' >
+                <Image
+                        src={`/instagram.svg`}
+                        alt={`instagram`}
+                        width={58}
+                        height={58}
+                        priority
+                    />
+                    </a>
 
                     <a href="https://wa.me/5532984565731" target='_blank' >
                         <Image
