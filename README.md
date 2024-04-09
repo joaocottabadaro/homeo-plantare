@@ -10,12 +10,13 @@
 Bem-vindo ao HomeoPlantare, um projeto dedicado a revolucionar o cuidado das plantas na agricultura por meio do poder da homeopatia. Este README serve como um guia abrangente para nosso projeto, delineando seu propósito, recursos, instruções de instalação e diretrizes de uso.
 ---
 
-## Recursos
+## Requisitos de cliente
 
 - **Showcase de Produtos**: Apresente os benefícios da homeopatia para plantas por meio de uma interface intuitiva e visualmente atraente.
 - **Responsividade Móvel**: Garanta acesso e usabilidade sem problemas em vários dispositivos móveis para uma experiência do usuário aprimorada.
 - **Conexão Direta com o Cliente**: Integre um botão de chamada para ação para comunicação direta com os clientes via WhatsApp.
-- **Desenvolvimento de Mockup no Figma**: Utilize o Figma para criar um mockup detalhado como base para design e desenvolvimento.
+- **Design seguindo o Mockup no Figma**: Desenvolvimento do projeto com base no mockup detalhado criado no Figma para garantir fidelidade ao design original.
+
 
 ---
 
@@ -48,10 +49,6 @@ Bem-vindo ao HomeoPlantare, um projeto dedicado a revolucionar o cuidado das pla
 5. Abra seu navegador e visite `http://localhost:3000` para visualizar o projeto.
 
 ---
-
-## Uso
-
-1. Explore a showcase de produtos para aprender sobre os benefícios da homeopatia para plantas.
 
 ---
 
