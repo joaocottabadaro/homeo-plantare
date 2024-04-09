@@ -1,34 +1,92 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# HomeoPlantare: Projeto README
 
-## Getting Started
+![HomeoPlantare Logo](https://example.com/homeoplantare_logo.png)
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+## Introdução
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Bem-vindo ao HomeoPlantare, um projeto dedicado a revolucionar o cuidado das plantas na agricultura por meio do poder da homeopatia. Este README serve como um guia abrangente para nosso projeto, delineando seu propósito, recursos, instruções de instalação e diretrizes de uso.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Recursos
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- **Showcase de Produtos**: Apresente os benefícios da homeopatia para plantas por meio de uma interface intuitiva e visualmente atraente.
+- **Responsividade Móvel**: Garanta acesso e usabilidade sem problemas em vários dispositivos móveis para uma experiência do usuário aprimorada.
+- **Conexão Direta com o Cliente**: Integre um botão de chamada para ação para comunicação direta com os clientes via WhatsApp.
+- **Desenvolvimento de Mockup no Figma**: Utilize o Figma para criar um mockup detalhado como base para design e desenvolvimento.
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## Instalação
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. Clone o repositório:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+    ```bash
+    git clone https://github.com/your_username/homeoplantare.git
+    ```
 
-## Deploy on Vercel
+2. Navegue até o diretório do projeto:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+    ```bash
+    cd homeoplantare
+    ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+3. Instale as dependências:
+
+    ```bash
+    npm install
+    ```
+
+4. Inicie o servidor de desenvolvimento:
+
+    ```bash
+    npm start
+    ```
+
+5. Abra seu navegador e visite `http://localhost:3000` para visualizar o projeto.
+
+---
+
+## Uso
+
+1. Explore a showcase de produtos para aprender sobre os benefícios da homeopatia para plantas.
+
+---
+
+## Tecnologias Utilizadas
+
+- Next.js
+- Tailwind CSS
+- TypeScript
+- Custom Hooks
+- Framer Motion
+
+---
+
+## Contribuições
+
+Damos as boas-vindas a contribuições da comunidade para aprimorar o projeto HomeoPlantare. Se você deseja contribuir, siga estas etapas:
+
+1. Faça um fork do repositório.
+2. Crie um novo branch para sua funcionalidade ou correção de bug.
+3. Faça suas alterações e garanta que todos os testes passem.
+4. Envie um pull request detalhando suas alterações.
+
+---
+
+## Licença
+
+Este projeto está licenciado sob a [Licença MIT](https://opensource.org/licenses/MIT). Sinta-se à vontade para usar e modificar o código para seus próprios fins.
+
+---
+
+## Contato
+
+Para quaisquer perguntas ou feedbacks sobre o projeto HomeoPlantare, entre em contato conosco em [www.homeoplantare.com.br](mailto:homeoplantareagro@gmail.com).
+
+---
+
+Obrigado por escolher o HomeoPlantare para suas necessidades de cuidados com o solo! Esperamos que este projeto o ajude a cultivar um jardim próspero e vibrante. Boa jardinagem!
+
+---
