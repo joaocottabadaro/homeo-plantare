@@ -20,7 +20,7 @@ const Slider = ({ slidesData }: { slidesData: SlideData[] }) => {
     const pagination = {
         clickable: true,
         renderBullet: function (index: number, className: string) {
-            console.log("className", className, index)
+          
             return '<span class="' + className + '">' + '</span>';
         },
     };

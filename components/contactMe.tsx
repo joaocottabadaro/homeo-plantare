@@ -19,12 +19,12 @@ const ContactMe = () => {
             <div className="flex gap-5 mb-12  z-20 max-lg:flex-wrap">
                 <div>
                     <span className="block  w-3/4 h-2 bg-tertiary m-auto"></span>
-                    <p className="  text-center leading-9 max-lg:text-2xl">Na Homeoplantare, estamos comprometidos em revolucionar a agricultura por meio da homeopatia. Com experiência e paixão pelo cultivo sustentável, nossa equipe de especialistas está dedicada a oferecer soluções naturais e inovadoras que fortalecem as plantas, aumentam a produtividade e promovem um equilíbrio saudável nos ecossistemas agrícolas.
+                    <p className="  text-center leading-9 lg:text-2xl">Na Homeoplantare, estamos comprometidos em revolucionar a agricultura por meio da homeopatia. Com experiência e paixão pelo cultivo sustentável, nossa equipe de especialistas está dedicada a oferecer soluções naturais e inovadoras que fortalecem as plantas, aumentam a produtividade e promovem um equilíbrio saudável nos ecossistemas agrícolas.
                     </p>
                 </div>
 
                 <div>
-                    <p className=" text-center leading-9 max-lg:text-2xl">Nossa missão é capacitar agricultores, agrônomos e entusiastas da agricultura com conhecimentos valiosos e práticas eficazes. Acreditamos que a homeopatia é a chave para um futuro agrícola mais sustentável e saudável. Ao se juntar a nós, você faz parte desse movimento de transformação.</p>
+                    <p className=" text-center leading-9 lg:text-2xl">Nossa missão é capacitar agricultores, agrônomos e entusiastas da agricultura com conhecimentos valiosos e práticas eficazes. Acreditamos que a homeopatia é a chave para um futuro agrícola mais sustentável e saudável. Ao se juntar a nós, você faz parte desse movimento de transformação.</p>
                     <span className="block  w-3/4 h-2 bg-tertiary m-auto"></span>
                 </div>
 

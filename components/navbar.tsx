@@ -30,7 +30,7 @@ const Navbar = () => {
             <nav className="bg-primary-foreground max-[1300px]:px-6 py-4 flex justify-between w-full items-center  px-10 xl:px-24 h-28">
                 <Image src="/logoPlant.svg" alt="Logo" width={250} height={40} priority />
 
-                <div className="flex justify-center  lg:flex md:gap-5 lg:gap-10 m-auto font-semibold gap-3">
+                <div className="flex justify-center  lg:flex md:gap-5 lg:gap-10 m-auto font-semibold gap-3 max-lg:hidden">
                     {links.map((link) => (
                         <>
                             <Link className="btn" key={link.hash} href={link.hash} onClick={() => { setActiveSection(link.name); setTimeOfLastClick(Date.now()) }}>
@@ -47,7 +47,7 @@ const Navbar = () => {
                     ))}
                 </div>
 
-                <a className="flex gap-2 lg:flex font-semibold" aria-label="entrar em contato pelo whatsapp" href="https://wa.me/5532984565731"  target="_blank">
+                <a className=" gap-2 lg:flex font-semibold  hidden sm:flex" aria-label="entrar em contato pelo whatsapp" href="https://wa.me/5532984565731"  target="_blank">
                     {" "}
                     <Image src="/phone.svg" alt="Logo" width={20} height={20} priority />
                     +55 32 98456-5731
@@ -91,7 +91,11 @@ const Navbar = () => {
 
 
                             ))}
-
+    <a className=" gap-2  font-semibold text-base flex" aria-label="entrar em contato pelo whatsapp" href="https://wa.me/5532984565731"  target="_blank">
+                    {" "}
+                    <Image src="/phone.svg" alt="Logo" width={20} height={20} priority />
+                    +55 32 98456-5731
+                </a>
                         </div>
                     </SheetContent>
                 </Sheet>
