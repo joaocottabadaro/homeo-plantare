@@ -1,4 +1,4 @@
-# HomeoPlantare: Projeto README
+# HomeoPlantare
 
 ![HomeoPlantare Logo](https://raw.githubusercontent.com/joaocottabadaro/homeo-plantare/main/public/logoFooter.svg)
 
