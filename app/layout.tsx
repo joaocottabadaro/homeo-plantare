@@ -9,8 +9,8 @@ const inter = Poppins({
 })
 
 export const metadata: Metadata = {
-  title: 'Homeo Plantare',
-  description: 'Sustentabilidade com Homeo Plantare',
+  title: 'Homeoplantare',
+  description: 'Sustentabilidade com Homeoplantare',
 }
 
 export default function RootLayout({
