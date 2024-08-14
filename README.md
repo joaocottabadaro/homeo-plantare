@@ -1,13 +1,13 @@
-# HomeoPlantare
+# Homeoplantare
 
-![HomeoPlantare Logo](https://raw.githubusercontent.com/joaocottabadaro/homeo-plantare/main/public/logoFooter.svg)
+![Homeoplantare Logo](https://raw.githubusercontent.com/joaocottabadaro/homeo-plantare/main/public/logoFooter.svg)
 
 
 ---
 
 ## Introdução
 
-Bem-vindo ao HomeoPlantare, um projeto dedicado a revolucionar o cuidado das plantas na agricultura por meio do poder da homeopatia. Este README serve como um guia abrangente para nosso projeto, delineando seu propósito, recursos, instruções de instalação e diretrizes de uso.
+Bem-vindo ao Homeoplantare, um projeto dedicado a revolucionar o cuidado das plantas na agricultura por meio do poder da homeopatia. Este README serve como um guia abrangente para nosso projeto, delineando seu propósito, recursos, instruções de instalação e diretrizes de uso.
 ---
 
 ## Requisitos de cliente
@@ -64,7 +64,7 @@ Bem-vindo ao HomeoPlantare, um projeto dedicado a revolucionar o cuidado das pla
 
 ## Contribuições
 
-Damos as boas-vindas a contribuições da comunidade para aprimorar o projeto HomeoPlantare. Se você deseja contribuir, siga estas etapas:
+Damos as boas-vindas a contribuições da comunidade para aprimorar o projeto Homeoplantare. Se você deseja contribuir, siga estas etapas:
 
 1. Faça um fork do repositório.
 2. Crie um novo branch para sua funcionalidade ou correção de bug.
@@ -81,10 +81,10 @@ Este projeto está licenciado sob a [Licença MIT](https://opensource.org/licens
 
 ## Contato
 
-Para quaisquer perguntas ou feedbacks sobre o projeto HomeoPlantare, entre em contato conosco em [www.homeoplantare.com.br](mailto:homeoplantareagro@gmail.com).
+Para quaisquer perguntas ou feedbacks sobre o projeto Homeoplantare, entre em contato conosco em [www.homeoplantare.com.br](mailto:homeoplantareagro@gmail.com).
 
 ---
 
-Obrigado por escolher o HomeoPlantare para suas necessidades de cuidados com o solo! Esperamos que este projeto o ajude a cultivar um jardim próspero e vibrante. Boa jardinagem!
+Obrigado por escolher o Homeoplantare para suas necessidades de cuidados com o solo! Esperamos que este projeto o ajude a cultivar um jardim próspero e vibrante. Boa jardinagem!
 
 ---
