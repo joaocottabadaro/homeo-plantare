@@ -33,7 +33,7 @@ const Footer = () => {
                 />
                 <p>Endereço: Rua Mister Moore 18, 301</p>
                 <p>Telefone: +5532984565731</p>
-                <p>E-mail: <a href='mailto:homeoplantareagro@gmail.com'>homeoplantareagro@gmail.com</a></p>
+                <p>E-mail: <a href='mailto:contato@homeoplantare.com'>contato@homeoplantare.com</a></p>
                 <p>© {new Date().getFullYear()} Homeoplantare. Todos os direitos reservados</p></div>
             <div className="flex align-center justify-center flex-col gap-6">
 
