@@ -81,7 +81,7 @@ Este projeto está licenciado sob a [Licença MIT](https://opensource.org/licens
 
 ## Contato
 
-Para quaisquer perguntas ou feedbacks sobre o projeto Homeoplantare, entre em contato conosco em [www.homeoplantare.com.br](mailto:homeoplantareagro@gmail.com).
+Para quaisquer perguntas ou feedbacks sobre o projeto Homeoplantare, entre em contato conosco em [www.homeoplantare.com.br](mailto:contato@homeoplantare.com).
 
 ---
 
